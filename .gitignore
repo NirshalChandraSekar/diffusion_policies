@@ -1,1 +1,3 @@
 stanford_cars/*
+__pycache__/*
+ckpt.pt
