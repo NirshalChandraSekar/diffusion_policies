@@ -39,6 +39,7 @@ class  DiffusionModel:
         # self.beta = torch.clip(1 - self.alpha_dash[1:] / self.alpha_dash[:-1], min=1e-5, max=0.999)
         # self.alpha = 1 - self.beta
         
+        
 
     def prepare_data(self):
         transforms = torchvision.transforms.Compose([
